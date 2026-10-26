@@ -19,6 +19,7 @@ from .mcp import MCPRetriever
 from .bocha.bocha import BoChaSearch
 from .xquik.xquik import XquikSearch
 from .openalex.openalex import OpenAlexSearch
+from .anysearch.anysearch import AnySearchSearch
 
 __all__ = [
     "TavilySearch",
@@ -42,4 +43,5 @@ __all__ = [
     "BoChaSearch",
     "XquikSearch",
     "OpenAlexSearch"
+    "AnySearchSearch",
 ]
